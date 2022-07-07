@@ -1,0 +1,246 @@
+/* /* font */
+@font-face{
+    src: url(../font/playfair-display/playfairdisplay-black.otf);
+    font-family: 'playfairdisplay-black', serif;
+    font weight: 900;
+    }
+    @font-face{
+        src: url(../font/playfair-display/PlayfairDisplay-Regular.otf);
+        font-family: 'Playfair Display-regular', serif;
+        font weight: 400;
+        }
+    @font-face{
+  src: url(../font/playfair-display/PlayfairDisplaySC-Bold.otf);
+  font-family: 'Playfair Display-bold';
+  font weight: 700;
+ }
+ @font-face {
+    src: url(../font/Ubuntu/ubuntu-light.ttf);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+ }
+   
+ /* common start */
+ body{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Playfair Display-regular', serif;
+    font-size: 16px ;
+    font-weight:400 ;
+    color:#626262 ;
+ }
+ /* common end */
+ /* header start */
+ header{
+    padding: 25px 0;
+ }
+ .container{
+    margin:0 auto;
+    width:90%;
+    /* border: 1px solid red; */
+    overflow: hidden;
+ }
+ .logo{
+    margin-top: 12px;
+   width: 12%;
+   /* border: 1px solid red; */
+   float: left;
+
+ }
+ .logo img{
+    width: 100%;
+ }
+ .menu{
+    width: 65%;
+    /* border: 1px solid red; */
+    float: right;
+ }
+ .menu ul{
+   float: right; 
+ }
+ .menu ul li{
+    list-style: none;
+    float: left;
+ }
+ .menu ul li a{
+ margin: 0 50px ;
+ display: inline-block;
+ text-decoration: none;
+ text-transform: uppercase;
+ color: #626262;
+ border-bottom: 1px solid transparent
+}
+ .menu ul li:last-child a{
+   margin-right: 0;
+ }
+ .menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+ }
+ /* header end */
+ /* banner start */
+ .banner{}
+ .b_image{}
+ .b_image img{
+    width: 100% ;
+ }
+ /* banner end */
+ /*  perfect start */
+ .perfect {
+    padding: 100px 0 60px;
+}
+
+.container2 {
+    margin: 0 auto;
+    width: 80%;
+     /* border: 1px solid red; */
+}
+
+.p_content {
+}
+
+.c_light {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+
+.c_title {
+    margin: 20px 0 25px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.c_text {
+    margin: 0;
+    line-height: 26px;
+}
+.mb_45{
+    margin-bottom: 40px;
+}
+ /*  perfect end */
+ /* blog start */
+ .blog{
+    padding: 20px 0 60px;
+ }
+ .b_content{
+    overflow: hidden;
+ }
+ .b_single {
+    margin-top: 80px;
+    float: left;
+    width: 47%;
+    /* border: 1px solid rebeccapurple; */
+}
+.b_single:nth-child(even){
+    margin-left: 6%;
+}
+.s_image {
+    margin-bottom: 25px;
+}
+.s_image img{
+width: 100%;
+}
+ /* blog end */
+ /* sing up start  */
+.signup{
+      background-color: #f0f0f0;
+      padding: 70px 0;
+}
+.title {
+   text-align: center;
+   font-size: 30px;
+}
+.s1{
+      margin-top: 0;
+      margin-bottom: 70px;
+      color: #333333;
+}
+.s_form{
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+}
+.s_form input{
+   padding-left: 5px;
+    padding-right: 45px;
+    font-family: 'PlayfairDisplay', serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 345px;
+    height: 45px;
+    color: #626262;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+}
+.s_form button{
+   background: transparent;
+   border: none;
+   cursor: pointer;
+   position: absolute;
+   top: 15px;
+   right: 0;
+}
+.s_form button img{}
+ /*  sing up end */
+ /* load start */
+.button{ 
+   /* text-align: center; */
+}
+.btn{
+   margin: 120px 0 ;
+   padding: 12px 20px ;
+   font-size: 16px;
+   color: #626262;
+   border: 1px solid black;
+   outline: none;
+}
+ /* load end  */
+ /* footer start */
+ .container4{
+   margin: 0 auto;
+   width: 90%;
+   overflow: hidden;
+ }
+ .menu1{
+ float: left;
+ }
+ .menu2{
+   float: right;
+ }
+ .menu1 ul{
+   
+ }
+ .menu1 ul li{
+   list-style: none;
+   float: left;
+ }
+ .menu1 ul li a{
+   padding-left: 15px;
+    display: inline-block;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+ }
+ .menu2 ul{}
+ .menu2 ul li{
+   list-style: none;
+   float: left;
+ }
+ .menu2 ul li a{
+   padding-left: 15px;
+    display: inline-block;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+ }
+.fa-brands{
+   display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
+ /* footer end */
